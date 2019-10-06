@@ -12,5 +12,6 @@ class LandmarksController < ApplicationController
   end
   
   post '/landmarks' do
+    binding.pry
   end
 end
