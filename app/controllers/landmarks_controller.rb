@@ -22,7 +22,7 @@ class LandmarksController < ApplicationController
   end
   
   patch '/landmarks/:id' do
-    
+    binding.pry
   end
   
   get '/landmarks/:id' do
