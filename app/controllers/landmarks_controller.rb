@@ -12,6 +12,6 @@ class LandmarksController < ApplicationController
   end
   
   post '/landmarks' do
-    binding.pry
+    Landmark.create(params)
   end
 end
